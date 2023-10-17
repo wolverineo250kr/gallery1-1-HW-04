@@ -1,0 +1,41 @@
+h1 {
+    text-align: center;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image {
+    margin: 10px;
+}
+
+.comment {
+    margin-bottom: 10px;
+}
+
+.author {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.date {
+    color: gray;
+}
+
+a {
+    color: red;
+    margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+}
